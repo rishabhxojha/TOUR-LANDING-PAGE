@@ -1,0 +1,223 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.nav{
+    background-color:rgb(60, 63, 66);
+    color: antiquewhite;
+    padding: 25px;
+    filter: none;
+    position:sticky;
+    top: 0px;
+}
+li,ul{
+    display: inline;
+    cursor: pointer;
+    
+}
+li:hover{
+    font-size: 30px;
+
+}
+ul{
+    padding-left: 30%;
+}
+li{
+    padding-left: 20px;
+}
+.oneli,.twoli{
+    border-radius: 20px;
+    padding: 10px;
+    padding-left:20px;
+    padding-right:20px;
+    font-size:medium;
+    box-shadow:20px 20px 20px;
+    cursor: pointer;
+    background-color: bisque;
+    color: black;
+    font-weight: bold;
+}
+.oneli{
+    margin-left: 150px;
+}
+.twoli{
+     margin-left: 30px;
+}
+.brandname{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 80px;
+    color: rgb(183, 183, 136);
+    display: inline;
+}
+.containerone{
+    background-image: url(images/bg7.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height:900px;
+    width:100%;
+
+}
+ .firstpage{
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: cursive;
+    width: 40%;
+    text-align: center;
+    color: rgb(62, 60, 60);
+    position:static;
+    padding-top: 300px;
+}
+.firstpagebutton{
+    font-size: 30px;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 15px;
+    border-style:inset;
+    border-color: black;
+} 
+
+h2{
+    text-align: center;
+    color: rgb(53, 50, 50);
+    font-size: 50px;
+    padding: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(107, 90, 118);
+
+}
+h3{
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(160, 135, 177);
+}
+.splace{
+    background-color: rgb(240, 207, 165);
+}
+
+.allplaces{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    background-color: antiquewhite;
+    flex-wrap: wrap;
+    
+}
+.allplaces div{
+    flex-basis: 20%;
+    margin-top: 100px;
+    cursor: pointer;
+}
+
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    padding-top: 20px;
+    color: rgb(160, 180, 198);
+    padding-bottom: 20px;
+}
+p:hover{
+    font-size: 40px;
+    color: rgb(96, 77, 53);
+}
+.offerpage{
+    text-align: center;
+    background-color: antiquewhite;
+    font-size: larger;
+    padding-top: 80px;
+
+}
+.off1{
+    color: rgb(96, 77, 53);
+    font-weight:bolder;
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+.off2{
+    color:rgb(137, 120, 25);
+    font-weight:bolder;
+    font-size: 25px;
+    padding: 20px;
+}
+.off3{
+    color:rgba(237, 13, 13, 0.361);
+    font-size: 30px;
+    font-family: cursive;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 30px;
+}
+.flooter{
+    height: 180px;
+    width: 100%;
+    background-color:rgb(43, 85, 128);
+    padding-bottom: 100px;
+}
+.one{
+    font-size:50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    color: rgb(183, 183, 183);
+    padding-top: 15px;
+
+}
+h5{
+   font-size: 40px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-weight: bold;
+   text-align: center;
+   color: rgb(126, 124, 124);
+   padding-top: 20px;
+}
+a{
+    display: inline-flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   padding-top: 30px;
+   
+}
+.at1{
+    padding-left: 38%;
+    padding-right: 40px;
+    position: relative;
+    top: 8px;
+    
+}
+.at2{
+    padding-right: 40px;
+    padding-bottom: 10px;
+    
+}
+.at3{
+    padding-right: 40px;
+    position: relative;
+    top: 8px;
+}
+.at4{
+    padding-right: 40px;
+    position: relative;
+    top: 8px;
+    
+}
+
+.dd{
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    color: azure;
+    text-align: center;
+}
+.dd1{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 14px;
+}
+.dd2{
+    font-size:13px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 5px;
+}
